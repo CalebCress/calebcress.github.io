@@ -1,0 +1,82 @@
+body { 
+    margin: 0; 
+    overflow: hidden;
+    background-color: #030f22;
+}
+#globeViz {
+    position: absolute;
+    right: 0;
+}
+#info { 
+    position: absolute; 
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 100; 
+    width: 50%;
+    /* background-color:  rgb(58, 52, 65); */
+    background-color: #ebe0b5;
+    display: block; 
+    border-radius: 10px;
+    border-color: #ebe0b5;
+    border-style: solid;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* opacity: .8; */
+}
+
+#info img {
+    width: 100%;
+}
+
+#next {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(58, 52, 65);
+    border-radius: 50%;
+    border-color: rgb(105, 95, 117);
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+}
+
+#prev {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(58, 52, 65);
+    border-radius: 50%;
+    border-color: rgb(105, 95, 117);
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+}
+
+#infoContent {
+    color:#1f1f1f;
+    font-family: Helvetica;
+    padding: 10px;
+}
+
+#infoBody {
+    padding-bottom: 50px;
+}
+
+.cap {
+    margin-top: 1px;
+    color:rgb(104, 104, 104);
+    font-size: 15px;
+}
+.by {
+    font-size: 20px;
+}
